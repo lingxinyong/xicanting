@@ -1,0 +1,291 @@
+header{
+    width: 100%;
+    height: 137px;
+}
+header .header_wrap{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .header_wrap .logo{
+    width: 180px;
+    height: 110px;
+    display: flex;
+}
+header .header_wrap .logo img{
+    width: 100%;
+}
+header .header_wrap .nav{
+    display: flex;
+    margin-top: 60px;
+}
+header .header_wrap .nav li{
+    display: flex;
+}
+header .header_wrap .nav li>span{
+    display: inline-block;
+    width: 2px;
+    height: 42px;
+    background: #C0BDB6;
+    margin: 0 22px;
+}
+header .header_wrap .nav li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+}
+header .header_wrap .nav li a span{
+    display: flex;
+    height: 30px;
+}
+header .header_wrap .nav li:hover>a{
+    color: red;
+}
+header .header_wrap .nav li:hover>a>span{
+    border-bottom: 2px solid red;
+    box-sizing: border-box;
+}
+header .header_wrap .nav li:nth-child(3)>a{
+    color: red;
+}
+header .header_wrap .nav li:nth-child(3)>a>span{
+    border-bottom: 2px solid red;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+}
+section .banner{
+    width: 100%;
+    height: 601px;
+    background: url(../img/guanyuwomen-banner.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+section .banner .opacity{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+section .banner h2{
+    width: 100%;
+    font-size: 60px;
+    position: absolute;
+    left: 0;
+    top: 38%;
+    text-align: center;
+    letter-spacing: 20px;
+}
+section .banner p{
+    width: 100%;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    bottom: 8%;
+    text-align: center;
+}
+section .wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 我们的故事 */
+section .wrap .story{
+    width: 100%;
+}
+section .title{
+    font-size: 30px;
+    color: #1A0606;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-bottom: 60px;
+    padding-top: 100px;
+}
+section .title span{
+    font-size: 48px;
+}
+section .wrap .story .story_main{
+    width: 100%;
+    padding: 0 40px;
+    overflow: hidden;
+}
+section .wrap .story .story_main p{
+    width: 552px;
+    float: left;
+    padding-top: 110px;
+}
+section .wrap .story .story_main .tp{
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    margin-left: 70px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+section .wrap .story .story_main .tp img{
+    width: 100%;
+}
+/* 我们的环境 */
+section .wrap .huanjing{
+    width: 100%;
+}
+section .wrap .huanjing .lunbo{
+    width: 100%;
+    height: 450px;
+    background: #ddd;
+}
+section .wrap .huanjing .lunbo .swiper-slide{
+    background: url(../img/1.png) no-repeat center;
+    background-size: cover;
+    height: 450px;
+}
+section .wrap .huanjing .lunbo .swiper-slide:nth-child(2){
+    background: url(../img/2.png) no-repeat center;
+    background-size: cover;
+}
+section .wrap .huanjing .lunbo .swiper-slide:nth-child(3){
+    background: url(../img/3.png) no-repeat center;
+    background-size: cover;
+}
+section .wrap .huanjing .lunbo .swiper-slide:nth-child(4){
+    background: url(../img/4.png) no-repeat center;
+    background-size: cover;
+}
+/* 我们的团队 */
+section .wrap .teams{
+    width: 100%;
+}
+section .wrap .teams .people{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+section .wrap .teams .people div{
+    width: 200px;
+    text-align: center;
+}
+section .wrap .teams .people div a{
+    display: flex;
+    width: 100%;
+    height: 280px;
+    position: relative;
+}
+section .wrap .teams .people div a img{
+    width: 100%;
+}
+section .wrap .teams .people div a .opacity{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.3s linear;
+}
+section .wrap .teams .people div a:hover .opacity{
+    background: rgba(0, 0, 0, 0.3);
+
+}
+section .wrap .teams .people div .tit{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+section .wrap .teams .people div span{
+    display: block;
+    padding: 10px 0;
+}
+section .wrap .teams .people div p{
+    font-size: 14px;
+}
+footer{
+    width: 100%;
+    height: 380px;
+    background: #37261F;
+    margin-top: 130px;
+}
+footer .footer_wrap{
+    width: 1200px;
+    height: 320px;
+    margin: 0 auto;
+    padding: 100px 80px 0;
+    color: #e8e8e8;
+    position: relative;
+}
+footer>.footer_wrap>.top{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    top: -66px;
+    z-index: 100;
+    overflow: hidden;
+}
+footer>.footer_wrap>.top .top_yuan{
+    display: block;
+    width: 156px;
+    height: 156px;
+    background: #37261F;
+    border-radius: 50%;
+    position: absolute;
+    left: 42%;
+    bottom: -34%;
+    text-align: center;
+}
+footer>.footer_wrap>.top .top_yuan i{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+footer>.footer_wrap>.top .top_yuan i img{
+    width: 100%;
+}
+footer>.footer_wrap>.top .top_yuan span{
+    color: #fff;
+}
+footer .footer_wrap ul{
+    display: flex;
+    float: left;
+}
+footer .footer_wrap ul li{
+    margin-right: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .footer_wrap ul li h4{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+footer .footer_wrap ul li a{
+    color: #e8e8e8;
+    margin-top: 5px;
+}
+footer .footer_wrap ul li a:hover{
+    text-decoration: underline;
+    color: #C9C9C7;
+}
+footer .footer_wrap .contact{
+    float: left;
+    margin-left: 50px;
+}
+footer .footer_wrap .contact p{
+    margin-bottom: 10px;
+}
+footer .footer_bottom{
+    border-top: 1px solid #353535;
+    font-size: 12px;
+    color: #C9C9C7;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+}

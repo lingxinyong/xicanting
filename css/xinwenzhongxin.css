@@ -1,0 +1,356 @@
+header{
+    width: 100%;
+    height: 137px;
+}
+header .header_wrap{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .header_wrap .logo{
+    width: 180px;
+    height: 110px;
+    display: flex;
+}
+header .header_wrap .logo img{
+    width: 100%;
+}
+header .header_wrap .nav{
+    display: flex;
+    margin-top: 60px;
+}
+header .header_wrap .nav li{
+    display: flex;
+}
+header .header_wrap .nav li>span{
+    display: inline-block;
+    width: 2px;
+    height: 42px;
+    background: #C0BDB6;
+    margin: 0 22px;
+}
+header .header_wrap .nav li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+}
+header .header_wrap .nav li a span{
+    display: flex;
+    height: 30px;
+}
+header .header_wrap .nav li:hover>a{
+    color: red;
+}
+header .header_wrap .nav li:hover>a>span{
+    border-bottom: 2px solid red;
+    box-sizing: border-box;
+}
+header .header_wrap .nav li:nth-child(4)>a{
+    color: red;
+}
+header .header_wrap .nav li:nth-child(4)>a>span{
+    border-bottom: 2px solid red;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+}
+section .banner{
+    width: 100%;
+    height: 601px;
+    background: url(../img/guanyuwomen-banner.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+section .banner .opacity{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+section .banner h2{
+    width: 100%;
+    font-size: 60px;
+    position: absolute;
+    left: 0;
+    top: 38%;
+    text-align: center;
+    letter-spacing: 20px;
+}
+section .banner p{
+    width: 100%;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    bottom: 8%;
+    text-align: center;
+}
+section .wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+section .wrap .tp{
+    width: 970px;
+    padding: 120px 41px 0;
+    display: flex;
+    margin: 0 auto;
+}
+section .wrap .tp .tp_left{
+    width: 603px;
+    height: 603px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+section .wrap .tp .tp_left img{
+    width: 100%;
+    transition: all 0.3s linear;
+}
+section .wrap .tp .tp_right{
+    width: 367px;
+    height: 603px;
+}
+section .wrap .tp .tp_right .tp_right_top{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+}
+section .wrap .tp .tp_right .tp_right_top img{
+    width: 100%;
+    transition: all 0.3s linear;
+
+}
+section .wrap .tp .tp_right .tp_right_bottom{
+    width: 100%;
+    height: 233px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+}
+section .wrap .tp .tp_right .tp_right_bottom img{
+    width: 100%;
+    transition: all 0.3s linear;
+
+}
+section .wrap .tp .opacity{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(55, 38, 31, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+section .wrap .tp .opacity p{
+    font-size: 32px;
+    padding-top: 10px;
+}
+section .wrap .tp .tp_left:hover .opacity{
+    display: flex;
+}
+section .wrap .tp .tp_left:hover img{
+    transform: scale(1.2);
+}
+section .wrap .tp .tp_right .tp_right_top:hover .opacity{
+    display: flex;
+}
+section .wrap .tp .tp_right .tp_right_top:hover img{
+    transform: scale(1.2);
+}
+section .wrap .tp .tp_right .tp_right_bottom:hover .opacity{
+    display: flex;
+}
+section .wrap .tp .tp_right .tp_right_bottom:hover img{
+    transform: scale(1.2);
+}
+section .wrap .more{
+    float: right;
+    color: #37261F;
+    padding: 60px 0 0;
+
+}
+section .wrap .more:hover{
+    text-decoration: underline;
+}
+/* 新闻 */
+section .wrap .news{
+    width: 100%;
+    padding: 0 60px;
+    margin-top: 120px;
+}
+section .wrap .news .news_list{
+    width: 100%;
+    display: none;
+}
+section .wrap .news .news_list:first-child{
+    display: block;
+}
+section .wrap .news .news_list li{
+    width: 100%;
+    border-bottom: 1px solid #C0BDB6;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+section .wrap .news .news_list li .list_lt{
+    display: flex;
+    width: 703px;
+}
+section .wrap .news .news_list li .list_lt .data{
+    width: 146px;
+    height: 146px;
+    border: 1px solid #C0BDB6;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 56px;
+}
+section .wrap .news .news_list li .list_lt .data span{
+    font-size: 40px;
+}
+section .wrap .news .news_list li .list_lt .words{
+    color: #37261F;
+    width: 557px;
+}
+section .wrap .news .news_list li .list_lt .words .tit{
+    font-size: 24px;
+}
+section .wrap .news .news_list li .list_lt .words p{
+    padding: 50px 0 20px;
+    text-indent: 2em;
+}
+section .wrap .news .news_list li .list_lt .words a{
+    display: block;
+    float: right;
+    color: #000;
+}
+section .wrap .news .news_list li .list_lt .words a:hover{
+    text-decoration: underline;
+}
+section .wrap .news .news_list li .list_rt{
+    width: 324px;
+    height: 200px;
+    overflow: hidden;
+}
+section .wrap .news .news_list li .list_rt img{
+    width: 100%;
+    transition: all 0.2s linear;
+}
+section .wrap .news .news_list li .list_rt img:hover{
+    transform: scale(1.1);
+}
+section .wrap .news .anniu{
+    color: #37261F;
+    display: flex;
+    justify-content: center;
+}
+section .wrap .news .anniu li{
+    padding: 10px 5px;
+    cursor: pointer;
+}
+section .wrap .news .anniu .act{
+    color: #D8463F;
+}
+
+footer{
+    width: 100%;
+    height: 380px;
+    background: #37261F;
+    margin-top: 130px;
+}
+footer .footer_wrap{
+    width: 1200px;
+    height: 320px;
+    margin: 0 auto;
+    padding: 100px 80px 0;
+    color: #e8e8e8;
+    position: relative;
+}
+footer>.footer_wrap>.top{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    top: -66px;
+    z-index: 100;
+    overflow: hidden;
+}
+footer>.footer_wrap>.top .top_yuan{
+    display: block;
+    width: 156px;
+    height: 156px;
+    background: #37261F;
+    border-radius: 50%;
+    position: absolute;
+    left: 43%;
+    bottom: -34%;
+    text-align: center;
+}
+footer>.footer_wrap>.top .top_yuan i{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+footer>.footer_wrap>.top .top_yuan i img{
+    width: 100%;
+}
+footer>.footer_wrap>.top .top_yuan span{
+    color: #fff;
+}
+footer .footer_wrap ul{
+    display: flex;
+    float: left;
+}
+footer .footer_wrap ul li{
+    margin-right: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .footer_wrap ul li h4{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+footer .footer_wrap ul li a{
+    color: #e8e8e8;
+    margin-top: 5px;
+}
+footer .footer_wrap ul li a:hover{
+    text-decoration: underline;
+    color: #C9C9C7;
+}
+footer .footer_wrap .contact{
+    float: left;
+    margin-left: 50px;
+}
+footer .footer_wrap .contact p{
+    margin-bottom: 10px;
+}
+footer .footer_bottom{
+    border-top: 1px solid #353535;
+    font-size: 12px;
+    color: #C9C9C7;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+}
